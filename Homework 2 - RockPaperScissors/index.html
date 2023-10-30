@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Homework</title>
+    <title>Rock Paper Scissors</title>
 </head>
 
 <body>
     <h1 class="titleTexts">Let's play "Rock, Paper & Scissors"!</h1>
-    <h3 class="titleTexts">Write your choice in the box, click submit and I'll instantly reply with my choice!</h3>
-    <input id="playerInput">
-    <button onclick="gamePicks()">Submit</button>
-    <p id="output"></p>
-
+    <h4 class="titleTexts">Write your choice in the box, click submit and I'll instantly reply with my choice!</h4>
+    
+    <div class="titleTexts player-input">
+        <input id="playerInput">
+        <button onclick="gamePicks()">✅</button>
+    </div>
+    <p id="output" class="titleTexts"></p>
+    <h4 id="result" class="titleTexts"></h4>
     <script src="app.js"></script>
 </body>
 
