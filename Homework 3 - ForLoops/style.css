@@ -1,0 +1,10 @@
+input{
+    border-radius: 40px;
+    width: 250px;
+    text-align: center;
+}
+
+.titles{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
